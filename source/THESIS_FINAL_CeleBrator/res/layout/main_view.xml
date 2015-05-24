@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id              = "@+id/mainLayout"
+    android:layout_width    = "match_parent"
+    android:layout_height   = "match_parent"
+    android:orientation     = "vertical"
+    android:background      = "@drawable/gradient_main"
+    android:weightSum       = "5"
+>
+	<TextView
+	    android:layout_width        = "match_parent"
+	    android:layout_height       = "0dp"
+	    android:textSize            = "40dp"
+	    android:gravity             = "bottom|center_horizontal"
+	    android:text                = "@string/app_name"
+	    android:textStyle           = "bold"
+	    android:textColor           = "#FFDDDD44"
+	    android:layout_weight       = "1"
+	/>
+	<TextView
+	    android:layout_width        = "match_parent"
+	    android:layout_height       = "wrap_content"
+	    android:textSize            = "20dp"
+	    android:gravity             = "center"
+	    android:text                = "@string/app_title"
+	    android:textColor           = "#FFEEEE88"
+	/>
+	<LinearLayout
+	    android:layout_width    = "match_parent"
+	    android:layout_height   = "0dp"
+	    android:orientation     = "horizontal"
+	    android:weightSum       = "3"
+	    android:layout_weight   = "3"
+	    android:gravity         = "center"
+	>
+		<LinearLayout
+		    android:layout_width  = "match_parent"
+		    android:layout_height = "wrap_content"
+		    android:orientation   = "vertical"
+		    android:layout_weight = "1"
+		    android:gravity       = "center"
+		>
+			<ImageView
+			    android:src           = "@drawable/globe"
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:onClick       = "launchPosition"
+			/>
+			<TextView
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:gravity       = "center"
+			    android:text          = "@string/launch_position"
+			    android:textStyle     = "bold"
+			    android:onClick       = "launchPosition"
+			/>
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width  = "match_parent"
+		    android:layout_height = "wrap_content"
+		    android:orientation   = "vertical"
+		    android:layout_weight = "1"
+		>
+			<ImageView
+			    android:src           = "@drawable/clock"
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:onClick       = "launchTime"
+			/>
+			<TextView
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:gravity       = "center"
+			    android:text          = "@string/launch_time"
+			    android:textStyle     = "bold"
+			    android:onClick       = "launchTime"
+			/>
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width  = "match_parent"
+		    android:layout_height = "wrap_content"
+		    android:orientation   = "vertical"
+		    android:layout_weight = "1"
+		>
+			<ImageView
+			    android:src           = "@drawable/compass"
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:onClick       = "launchCompass"
+			/>
+			<TextView
+			    android:layout_width  = "match_parent"
+			    android:layout_height = "wrap_content"
+			    android:gravity       = "center"
+			    android:text          = "@string/launch_compass"
+			    android:textStyle     = "bold"
+			    android:onClick       = "launchCompass"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+	<!-- 
+	<Button
+	    android:layout_width  = "match_parent"
+	    android:layout_height = "wrap_content"
+	    android:onClick       = "launchCalibration"
+	    android:text          = "@string/launch_calibraion"
+	/>
+	-->
+</LinearLayout>

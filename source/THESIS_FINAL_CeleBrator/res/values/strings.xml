@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CeleBrations</string>
+    <string name="app_title">Celestial Calibrations</string>
+    
+    <!-- Main View -->
+	<string name="launch_position">Position</string>
+	<string name="launch_time">Time</string>
+	<string name="launch_compass">Compass</string>
+	<string name="launch_calibraion">Calibration</string>
+    
+    <string name="xAxis">X Axis:</string>
+    <string name="yAxis">Y Axis:</string>
+	<string name="zAxis">Z Axis:</string>
+	<string name="azimuth">Azimuth:</string>
+	<string name="pitch">Pitch:</string>
+	<string name="roll">Roll:</string>
+	<string name="empty"></string>
+	<string name="shoot">Shoot</string>
+	<string name="sun">Sun</string>
+	<string name="moon">Moon</string>
+	<string name="result">Result</string>
+	<string name="target">Target</string>
+	<string name="pictures">Pictures</string>
+	<string name="delete">Delete</string>
+	<string name="show">Map</string>
+	
+</resources>
